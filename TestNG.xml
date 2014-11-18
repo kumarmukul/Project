@@ -1,1 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<suite name="Gmail">
+	<test name="login">
+		<classes>
+			<class name="com.gmail.project.classes.TestLogin"></class>
+		</classes>
+	</test>
+</suite>
