@@ -1,6 +1,6 @@
 package com.gmail.project.classes;
-
 import java.io.IOException;
+import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 import com.gmail.project.pages.LoginPage;
 import com.gmail.project.util.PropertyFile;
@@ -14,9 +14,11 @@ public class TestLogin extends BaseTestClass{
 		
 		LoginPage login=new LoginPage();
 		login.enterUsername(driver,username);
-		login.enterPassword(driver, password);
+		login.enterPassword(driver,password);
 		ScreenShot.screenshots(driver);
 		login.signInClicked(driver);
-		ScreenShot.screenshots(driver);		
+		driver.findElement(By.xpath("//input[@aria-label='Search']")).sendKeys("Gmail");
+		ScreenShot.screenshots(driver);
+		//Assert.assertEquals(driver.getCurrentUrl(), "https://mail.google.com/mail/u/0/#inbox");
 	}
 }

@@ -13,13 +13,13 @@ import org.openqa.selenium.WebDriver;
 public class ScreenShot {
 	public static void screenshots(WebDriver driver) throws IOException{
 		
-		DateFormat format=new SimpleDateFormat("dd-mm-yyyy_HH_mm_ss");
+		DateFormat format=new SimpleDateFormat("dd-MM-yyyy HH_mm_ss");
 		Date d=new Date();
-		String date=format.format(d); 
-		Logs.info(date);
-		Logs.info("//src//test//resources//Screenshots//login"+date.trim().toString()+".png");
+		String date=format.format(d);
+		Logs.info("Screenshotdate with modified date="+date);
+		Logs.info("//src//test//resources//Screenshots//login"+date+".png");
 		File srcFile=((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(srcFile,new File(System.getProperty("user.dir")+"//src//test//resources//Screenshots//login"+date.trim().toString()+".png"));
+		FileUtils.copyFile(srcFile,new File(System.getProperty("user.dir")+"//src//test//resources//Screenshots//login_"+date+".png"));
 				
 	}
 	

@@ -16,6 +16,6 @@ public class LoginPage {
 		
 	}
 	public void signInClicked(WebDriver driver){
-		driver.findElement(signinButton);		
+		driver.findElement(signinButton).click();		
 	}	
 }
