@@ -48,8 +48,8 @@ public class Logs {
 		RollingFileAppender appender=new RollingFileAppender();
 		appender.setName("dynamicAppender");
 		appender.setAppend(true);
-		 appender.setMaxBackupIndex(1);
-		 appender.setMaxFileSize("1MB");
+		appender.setMaxBackupIndex(1);
+		appender.setMaxFileSize("1MB");
 
 		DateFormat format=new SimpleDateFormat("dd-MM-yyyy_HH_mm_ss");
 		Date d=new Date();
@@ -61,7 +61,7 @@ public class Logs {
 		layOut.setConversionPattern("%d %-5p [%c{1}] %m %n");
 		appender.setLayout(layOut);
 		Logger.getRootLogger().addAppender(appender); 
-	
+
 
 	}
 }

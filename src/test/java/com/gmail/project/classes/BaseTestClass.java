@@ -3,6 +3,7 @@ package com.gmail.project.classes;
 import java.util.concurrent.TimeUnit;
 
 //import org.apache.log4j.xml.DOMConfigurator;
+import org.apache.log4j.BasicConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterMethod;
@@ -16,6 +17,7 @@ public class BaseTestClass {
 	@BeforeMethod
 	public void setup(){
 //		DOMConfigurator.configure("log4j.xml");
+		BasicConfigurator.configure();
 		Logs.dynamicApp(System.getProperty("user.dir")+"\\src\\test\\resources\\Logs\\","gmail");
 		Logs.start("GMAIL LOGIN");
 		driver=new FirefoxDriver();

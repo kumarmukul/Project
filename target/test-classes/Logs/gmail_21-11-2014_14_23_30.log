@@ -1,0 +1,15 @@
+2014-11-21 14:23:30,327 INFO  [Logs] **************************************** 
+2014-11-21 14:23:30,328 INFO  [Logs] **************************************** 
+2014-11-21 14:23:30,328 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-11-21 14:23:30,328 INFO  [Logs] **************************************** 
+2014-11-21 14:23:30,328 INFO  [Logs] **************************************** 
+2014-11-21 14:23:37,813 INFO  [Logs] driver initialized 
+2014-11-21 14:23:37,880 INFO  [Logs] window maximized 
+2014-11-21 14:23:43,264 INFO  [Logs] browser launched 
+2014-11-21 14:23:44,113 INFO  [Logs] Screenshotdate with modified date=21-11-2014 14_23_44 
+2014-11-21 14:23:44,113 INFO  [Logs] //src//test//resources//Screenshots//login21-11-2014 14_23_44.png 
+2014-11-21 14:23:48,240 INFO  [Logs] Homefield 
+2014-11-21 14:23:56,956 INFO  [Logs] Screenshotdate with modified date=21-11-2014 14_23_56 
+2014-11-21 14:23:56,956 INFO  [Logs] //src//test//resources//Screenshots//login21-11-2014 14_23_56.png 
+2014-11-21 14:24:44,035 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond 
+2014-11-21 14:24:44,036 INFO  [RetryExec] Retrying request 

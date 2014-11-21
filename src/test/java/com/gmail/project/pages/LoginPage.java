@@ -8,12 +8,12 @@ public class LoginPage {
 	private final By passwordLoc=By.id("Passwd");
 	private final By signinButton=By.id("signIn");
 	
+	
 	public void enterUsername(WebDriver driver,String username){
 		driver.findElement(usernameLoc).sendKeys(username);
 	}
 	public void enterPassword(WebDriver driver,String password){
-		driver.findElement(passwordLoc).sendKeys(password);
-		
+		driver.findElement(passwordLoc).sendKeys(password);	
 	}
 	public void signInClicked(WebDriver driver){
 		driver.findElement(signinButton).click();		
