@@ -1,7 +1,6 @@
 package com.gmail.project.classes;
 import java.io.IOException;
-
-import org.testng.Assert;
+//import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.gmail.project.pages.HomePage;
@@ -18,11 +17,14 @@ public class TestLogin extends BaseTestClass{
 		LoginPage login=new LoginPage();
 		HomePage home=new HomePage();
 		login.enterUsername(driver,username);
+		Logs.info("username entered");
 		login.enterPassword(driver,password);
+		Logs.info("password entered");
 		ScreenShot.screenshots(driver);
 		login.signInClicked(driver);
-		Logs.info("Homefield");
+		Logs.info("SignIn button clicked");
 		home.searchField(driver);
+		Logs.info("Logged in successfully");
 		ScreenShot.screenshots(driver);
 		//Assert.assertEquals(driver.getCurrentUrl(), "https://mail.google.com/mail/u/0/#inbox");
 	}
