@@ -61,7 +61,5 @@ public class Logs {
 		layOut.setConversionPattern("%d %-5p [%c{1}] %m %n");
 		appender.setLayout(layOut);
 		Logger.getRootLogger().addAppender(appender); 
-
-
 	}
 }
