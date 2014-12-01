@@ -1,7 +1,6 @@
 package com.gmail.project.classes;
 import java.io.IOException;
 //import org.testng.Assert;
-import org.openqa.selenium.By;
 import org.testng.annotations.Test;
 
 import testlink.api.java.client.TestLinkAPIException;
@@ -21,7 +20,6 @@ public class TestLogin extends BaseTestClass{
 	public void login() throws InterruptedException, IOException, TestLinkAPIException{
 		LoginPage login=new LoginPage();
 		String notes="",results="";
-		//TestLink.reportResult("Gmail", "Gmail Test Plan", "TC-1:Login with valid credentials","Gmail Build", null,null);
 		HomePage home=new HomePage();
 		login.enterUsername(driver,username);
 		Logs.info("username entered");
@@ -33,25 +31,26 @@ public class TestLogin extends BaseTestClass{
 		home.searchField(driver);
 		Logs.info("Logged in successfully");
 		ScreenShot.screenshots(driver);
-		
+
 		try{
 			home.searchField(driver);
 			Logs.info("Logged in successfully");
 			ScreenShot.screenshots(driver);
 			results=TestLinkAPIResults.TEST_PASSED;
 			notes="Successfully executed";
-			}
-			catch (Exception e) {
-				
-				results=TestLinkAPIResults.TEST_FAILED;
-				notes="Execution failed";
-				
-			}
-			finally{
-				TestLink.reportResult("Gmail", "Gmail Test Plan", "TC-1:Login with valid credentials","Gmail Build",notes,results);
-				
-			}
-			
+			Logs.info("TestCase Passed");
 		}
+		catch (Exception e) {
+
+			results=TestLinkAPIResults.TEST_FAILED;
+			notes="Execution failed";
+			Logs.info("TestCase Failed");
+		}
+		finally{
+			TestLink.reportResult("Gmail", "Gmail Test Plan", "TC-1:Login with valid credentials","Gmail Build",notes,results);
+
+		}
+
 	}
+}
 
