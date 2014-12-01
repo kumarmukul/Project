@@ -5,7 +5,7 @@ import testlink.api.java.client.TestLinkAPIException;
 
 public class TestLink {
 
-	public static String APIkey="d9fb1dedef2a0ef811c988d50445591a";
+	public static String APIkey="054e593d4141dbb5ac65414d2a3a5eb0";
 	public static String url="http://localhost/testlink/index.php";
 
 	public static void reportResult(String TestProject, String TestPlan, String TestCase, String build, String Notes, String Result) throws TestLinkAPIException{
