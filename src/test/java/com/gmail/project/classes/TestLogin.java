@@ -3,8 +3,12 @@ import java.io.IOException;
 //import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import testlink.api.java.client.TestLinkAPIException;
 import testlink.api.java.client.TestLinkAPIResults;
+
+//import testlink.api.java.client.TestLinkAPIException;
+//import testlink.api.java.client.TestLinkAPIResults;
+
+import br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException;
 
 import com.gmail.project.pages.HomePage;
 import com.gmail.project.pages.LoginPage;
@@ -16,8 +20,9 @@ import com.gmail.project.util.TestLink;
 public class TestLogin extends BaseTestClass{
 	String username = PropertyFile.read("username");
 	String password = PropertyFile.read("password");
+	
 	@Test
-	public void login() throws InterruptedException, IOException, TestLinkAPIException{
+	public void login() throws InterruptedException, IOException, TestLinkAPIException, testlink.api.java.client.TestLinkAPIException{
 		LoginPage login=new LoginPage();
 		String notes="",results="";
 		HomePage home=new HomePage();
@@ -47,7 +52,7 @@ public class TestLogin extends BaseTestClass{
 			Logs.info("TestCase Failed");
 		}
 		finally{
-			TestLink.reportResult("Gmail", "Gmail Test Plan", "TC-1:Login with valid credentials","Gmail Build",notes,results);
+			TestLink.reportResult("GmailNew", "SampleTestPlan", "GmailLogin1","SampleBuild",notes,results);
 
 		}
 
