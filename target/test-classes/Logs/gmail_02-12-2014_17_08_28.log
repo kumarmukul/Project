@@ -1,0 +1,26 @@
+2014-12-02 17:08:28,989 INFO  [Logs] **************************************** 
+2014-12-02 17:08:28,990 INFO  [Logs] **************************************** 
+2014-12-02 17:08:28,990 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-02 17:08:28,990 INFO  [Logs] **************************************** 
+2014-12-02 17:08:28,990 INFO  [Logs] **************************************** 
+2014-12-02 17:08:36,921 INFO  [Logs] driver initialized 
+2014-12-02 17:08:36,979 INFO  [Logs] window maximized 
+2014-12-02 17:08:42,855 INFO  [Logs] browser launched 
+2014-12-02 17:08:43,526 INFO  [Logs] username entered 
+2014-12-02 17:08:43,604 INFO  [Logs] password entered 
+2014-12-02 17:08:43,605 INFO  [Logs] Screenshotdate with modified date=02-12-2014 17_08_43 
+2014-12-02 17:08:43,605 INFO  [Logs] //src//test//resources//Screenshots//login02-12-2014 17_08_43.png 
+2014-12-02 17:08:46,746 INFO  [Logs] SignIn button clicked 
+2014-12-02 17:08:54,060 INFO  [Logs] Logged in successfully 
+2014-12-02 17:08:54,060 INFO  [Logs] Screenshotdate with modified date=02-12-2014 17_08_54 
+2014-12-02 17:08:54,060 INFO  [Logs] //src//test//resources//Screenshots//login02-12-2014 17_08_54.png 
+2014-12-02 17:08:54,527 INFO  [Logs] Logged in successfully 
+2014-12-02 17:08:54,527 INFO  [Logs] Screenshotdate with modified date=02-12-2014 17_08_54 
+2014-12-02 17:08:54,527 INFO  [Logs] //src//test//resources//Screenshots//login02-12-2014 17_08_54.png 
+2014-12-02 17:08:55,111 INFO  [Logs] TestCase Passed 
+2014-12-02 17:09:01,905 INFO  [Logs] browser closed 
+2014-12-02 17:09:01,905 INFO  [Logs] ***************************************** 
+2014-12-02 17:09:01,905 INFO  [Logs] ***************************************** 
+2014-12-02 17:09:01,905 INFO  [Logs] *************-E-N-D-********************* 
+2014-12-02 17:09:01,905 INFO  [Logs] ***************************************** 
+2014-12-02 17:09:01,905 INFO  [Logs] ***************************************** 

@@ -1,0 +1,16 @@
+2014-12-02 16:33:36,805 INFO  [Logs] **************************************** 
+2014-12-02 16:33:36,806 INFO  [Logs] **************************************** 
+2014-12-02 16:33:36,806 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-02 16:33:36,806 INFO  [Logs] **************************************** 
+2014-12-02 16:33:36,806 INFO  [Logs] **************************************** 
+2014-12-02 16:33:48,228 INFO  [Logs] driver initialized 
+2014-12-02 16:33:48,298 INFO  [Logs] window maximized 
+2014-12-02 16:33:54,114 INFO  [Logs] browser launched 
+2014-12-02 16:33:54,850 INFO  [Logs] username entered 
+2014-12-02 16:33:54,928 INFO  [Logs] password entered 
+2014-12-02 16:33:54,930 INFO  [Logs] Screenshotdate with modified date=02-12-2014 16_33_54 
+2014-12-02 16:33:54,930 INFO  [Logs] //src//test//resources//Screenshots//login02-12-2014 16_33_54.png 
+2014-12-02 16:33:58,307 INFO  [Logs] SignIn button clicked 
+2014-12-02 16:34:07,148 INFO  [Logs] Logged in successfully 
+2014-12-02 16:34:07,149 INFO  [Logs] Screenshotdate with modified date=02-12-2014 16_34_07 
+2014-12-02 16:34:07,149 INFO  [Logs] //src//test//resources//Screenshots//login02-12-2014 16_34_07.png 

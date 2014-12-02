@@ -1,7 +1,7 @@
 package com.gmail.project.util;
 
 import testlink.api.java.client.TestLinkAPIClient;
-import br.eti.kinoshita.testlinkjavaapi.util.TestLinkAPIException;
+import testlink.api.java.client.TestLinkAPIException;
 
 //
 //import testlink.api.java.client.TestLinkAPIClient;
