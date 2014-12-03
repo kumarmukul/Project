@@ -35,18 +35,23 @@ public class TestLogin extends BaseTestClass{
 			Logs.info("Logged in successfully");
 			ScreenShot.screenshots(driver);
 			results=TestLinkAPIResults.TEST_PASSED;
+			Logs.info("results updated in try block");
 			notes="Successfully executed";
+			Logs.info("notes updated in try block");
 			Logs.info("TestCase Passed");
 		}
 		catch (Exception e) {
 
 			results=TestLinkAPIResults.TEST_FAILED;
+			Logs.info("results updated in catch block");
 			notes="Execution failed";
+			Logs.info("notes updated in catch block");
 			Logs.info("TestCase Failed");
 		}
 		finally{
 			TestLink.reportResult("GmailNew", "SampleTestPlan", "GmailLogin1","SampleBuild",notes,results);
-
+			Logs.info("finally block executed");
+			Logs.info("test case updated in TestLink");
 		}
 
 	}

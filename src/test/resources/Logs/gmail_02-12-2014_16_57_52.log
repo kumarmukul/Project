@@ -14,3 +14,5 @@
 2014-12-02 16:58:27,472 INFO  [Logs] Logged in successfully 
 2014-12-02 16:58:27,472 INFO  [Logs] Screenshotdate with modified date=02-12-2014 16_58_27 
 2014-12-02 16:58:27,472 INFO  [Logs] //src//test//resources//Screenshots//login02-12-2014 16_58_27.png 
+2014-12-02 17:18:25,337 INFO  [RetryExec] I/O exception (org.apache.http.NoHttpResponseException) caught when processing request: The target server failed to respond 
+2014-12-02 17:18:25,338 INFO  [RetryExec] Retrying request 
