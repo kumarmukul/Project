@@ -2,7 +2,6 @@ package com.gmail.project.util;
 
 import testlink.api.java.client.TestLinkAPIClient;
 import testlink.api.java.client.TestLinkAPIException;
-import testlink.api.java.client.*;
 
 public class TestLink {
 
