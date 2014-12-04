@@ -1,6 +1,11 @@
 package com.gmail.project.classes;
 import java.io.IOException;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 //import org.testng.Assert;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import testlink.api.java.client.TestLinkAPIException;
@@ -15,10 +20,11 @@ import com.gmail.project.util.TestLink;
 public class TestLogin extends BaseTestClass{
 	String username = PropertyFile.read("username");
 	String password = PropertyFile.read("password");
-	
+
 	@Test
 	public void login() throws IOException, TestLinkAPIException{
 		LoginPage login=new LoginPage();
+		Actions builder=new Actions(driver);
 		String notes="",results="";
 		HomePage home=new HomePage();
 		login.enterUsername(driver,username);
@@ -30,21 +36,26 @@ public class TestLogin extends BaseTestClass{
 		Logs.info("SignIn button clicked");
 		ScreenShot.screenshots(driver);
 
+		DateFormat format=new SimpleDateFormat(" z dd-MM-yyyy hh:mm:ss");
+		Date d=new Date();
+		String date=format.format(d);
+		System.out.println(d);
+
 		try{
 			home.searchField(driver);
+			builder.keyDown(Keys.TAB).keyUp(Keys.TAB).build().perform();
 			Logs.info("Logged in successfully");
 			ScreenShot.screenshots(driver);
 			results=TestLinkAPIResults.TEST_PASSED;
 			Logs.info("results updated in try block");
-			notes="Successfully executed";
+			notes="Successfully executed at"+date;
 			Logs.info("notes updated in try block");
 			Logs.info("TestCase Passed");
 		}
 		catch (Exception e) {
-
 			results=TestLinkAPIResults.TEST_FAILED;
 			Logs.info("results updated in catch block");
-			notes="Execution failed";
+			notes="Execution failed at"+date;
 			Logs.info("notes updated in catch block");
 			Logs.info("TestCase Failed");
 		}

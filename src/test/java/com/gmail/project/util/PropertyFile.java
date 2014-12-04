@@ -12,14 +12,12 @@ public class PropertyFile {
 		try {
 			p.load(new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\resources\\Data\\config.properties"));
 		} catch (FileNotFoundException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		return p.getProperty(key);
-		}
 	}
+}
 
 

@@ -5,6 +5,7 @@
     <classes>
       <class name="com.gmail.project.classes.TestLogin">
         <methods>
+          <include name="destroy"/>
           <include name="login"/>
           <include name="setup"/>
         </methods>

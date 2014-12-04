@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Gmail" duration-ms="34835" started-at="2014-12-03T10:19:30Z" finished-at="2014-12-03T10:20:05Z">
+  <suite name="Gmail" duration-ms="27578" started-at="2014-12-04T06:11:52Z" finished-at="2014-12-04T06:12:20Z">
     <groups>
     </groups>
-    <test name="login" duration-ms="34835" started-at="2014-12-03T10:19:30Z" finished-at="2014-12-03T10:20:05Z">
+    <test name="login" duration-ms="27578" started-at="2014-12-04T06:11:52Z" finished-at="2014-12-04T06:12:20Z">
       <class name="com.gmail.project.classes.TestLogin">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.gmail.project.classes.TestLogin@6bc4fa9d]" name="setup" is-config="true" duration-ms="15322" started-at="2014-12-03T15:49:30Z" finished-at="2014-12-03T15:49:45Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.gmail.project.classes.TestLogin@583f5cc3]" name="setup" is-config="true" duration-ms="12941" started-at="2014-12-04T11:41:52Z" finished-at="2014-12-04T11:42:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.gmail.project.classes.TestLogin@6bc4fa9d]" name="login" duration-ms="16560" started-at="2014-12-03T15:49:45Z" finished-at="2014-12-03T15:50:02Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:com.gmail.project.classes.TestLogin@583f5cc3]" name="login" duration-ms="14278" started-at="2014-12-04T11:42:05Z" finished-at="2014-12-04T11:42:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method status="PASS" signature="destroy()[pri:0, instance:com.gmail.project.classes.TestLogin@6bc4fa9d]" name="destroy" is-config="true" duration-ms="2938" started-at="2014-12-03T15:50:02Z" finished-at="2014-12-03T15:50:05Z">
+        <test-method status="PASS" signature="destroy()[pri:0, instance:com.gmail.project.classes.TestLogin@583f5cc3]" name="destroy" is-config="true" duration-ms="341" started-at="2014-12-04T11:42:19Z" finished-at="2014-12-04T11:42:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- destroy -->
