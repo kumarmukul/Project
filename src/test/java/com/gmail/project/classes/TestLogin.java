@@ -4,8 +4,6 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 //import org.testng.Assert;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import testlink.api.java.client.TestLinkAPIException;
@@ -24,7 +22,6 @@ public class TestLogin extends BaseTestClass{
 	@Test
 	public void login() throws IOException, TestLinkAPIException{
 		LoginPage login=new LoginPage();
-		Actions builder=new Actions(driver);
 		String notes="",results="";
 		HomePage home=new HomePage();
 		login.enterUsername(driver,username);
@@ -40,27 +37,27 @@ public class TestLogin extends BaseTestClass{
 		Date d=new Date();
 		String date=format.format(d);
 		System.out.println(d);
-
 		try{
+			//Thread.sleep(2000);
+			//driver.quit();
 			home.searchField(driver);
-			builder.keyDown(Keys.TAB).keyUp(Keys.TAB).build().perform();
 			Logs.info("Logged in successfully");
 			ScreenShot.screenshots(driver);
 			results=TestLinkAPIResults.TEST_PASSED;
 			Logs.info("results updated in try block");
 			notes="Successfully executed at"+date;
 			Logs.info("notes updated in try block");
-			Logs.info("TestCase Passed");
+			Logs.info("TestCase Passed in try block");
 		}
 		catch (Exception e) {
 			results=TestLinkAPIResults.TEST_FAILED;
 			Logs.info("results updated in catch block");
-			notes="Execution failed at"+date;
+			notes="Execution failed at"+date +"\n" +e;
 			Logs.info("notes updated in catch block");
-			Logs.info("TestCase Failed");
+			Logs.info("TestCase Failed in catch block");
 		}
 		finally{
-			TestLink.reportResult("GmailNew", "SampleTestPlan", "GmailLogin1","SampleBuild",notes,results);
+			TestLink.reportResult("GmailNew", "SampleTestPlan", "Login_Valid_Credentials","SampleBuild",notes,results);
 			Logs.info("finally block executed");
 			Logs.info("test case updated in TestLink");
 		}

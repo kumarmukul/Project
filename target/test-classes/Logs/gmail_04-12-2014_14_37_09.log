@@ -1,0 +1,23 @@
+2014-12-04 14:37:09,392 INFO  [Logs] **************************************** 
+2014-12-04 14:37:09,393 INFO  [Logs] **************************************** 
+2014-12-04 14:37:09,393 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-04 14:37:09,393 INFO  [Logs] **************************************** 
+2014-12-04 14:37:09,393 INFO  [Logs] **************************************** 
+2014-12-04 14:37:22,350 INFO  [Logs] driver initialized 
+2014-12-04 14:37:22,378 INFO  [Logs] window maximized 
+2014-12-04 14:37:29,397 INFO  [Logs] browser launched 
+2014-12-04 14:37:30,099 INFO  [Logs] username entered 
+2014-12-04 14:37:30,178 INFO  [Logs] password entered 
+2014-12-04 14:37:30,179 INFO  [Logs] Screenshotdate with modified date=04-12-2014 14_37_30 
+2014-12-04 14:37:30,179 INFO  [Logs] //src//test//resources//Screenshots//login04-12-2014 14_37_30.png 
+2014-12-04 14:37:33,579 INFO  [Logs] SignIn button clicked 
+2014-12-04 14:37:33,579 INFO  [Logs] Screenshotdate with modified date=04-12-2014 14_37_33 
+2014-12-04 14:37:33,579 INFO  [Logs] //src//test//resources//Screenshots//login04-12-2014 14_37_33.png 
+2014-12-04 14:37:41,554 INFO  [Logs] Logged in successfully 
+2014-12-04 14:37:41,554 INFO  [Logs] Screenshotdate with modified date=04-12-2014 14_37_41 
+2014-12-04 14:37:41,554 INFO  [Logs] //src//test//resources//Screenshots//login04-12-2014 14_37_41.png 
+2014-12-04 14:37:42,011 INFO  [Logs] results updated in try block 
+2014-12-04 14:37:42,012 INFO  [Logs] notes updated in try block 
+2014-12-04 14:37:42,012 INFO  [Logs] TestCase Passed 
+2014-12-04 14:37:43,805 INFO  [Logs] finally block executed 
+2014-12-04 14:37:43,806 INFO  [Logs] test case updated in TestLink 
