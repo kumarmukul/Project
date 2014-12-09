@@ -1,0 +1,30 @@
+2014-12-09 14:36:53,607 INFO  [Logs] **************************************** 
+2014-12-09 14:36:53,607 INFO  [Logs] **************************************** 
+2014-12-09 14:36:53,607 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-09 14:36:53,607 INFO  [Logs] **************************************** 
+2014-12-09 14:36:53,607 INFO  [Logs] **************************************** 
+2014-12-09 14:37:02,976 INFO  [Logs] driver initialized 
+2014-12-09 14:37:03,034 INFO  [Logs] window maximized 
+2014-12-09 14:37:07,485 INFO  [Logs] browser launched 
+2014-12-09 14:37:08,187 INFO  [Logs] username entered 
+2014-12-09 14:37:08,888 INFO  [Logs] password entered 
+2014-12-09 14:37:08,889 INFO  [Logs] Screenshotdate with modified date=09-12-2014 14_37_08 
+2014-12-09 14:37:08,889 INFO  [Logs] //src//test//resources//Screenshots//login09-12-2014 14_37_08.png 
+2014-12-09 14:37:11,464 INFO  [Logs] SignIn button clicked 
+2014-12-09 14:37:11,464 INFO  [Logs] Screenshotdate with modified date=09-12-2014 14_37_11 
+2014-12-09 14:37:11,465 INFO  [Logs] //src//test//resources//Screenshots//login09-12-2014 14_37_11.png 
+2014-12-09 14:37:23,144 INFO  [Logs] Logged in successfully 
+2014-12-09 14:37:23,144 INFO  [Logs] Screenshotdate with modified date=09-12-2014 14_37_23 
+2014-12-09 14:37:23,144 INFO  [Logs] //src//test//resources//Screenshots//login09-12-2014 14_37_23.png 
+2014-12-09 14:37:25,368 INFO  [Logs] results updated in try block 
+2014-12-09 14:37:25,368 INFO  [Logs] notes updated in try block 
+2014-12-09 14:37:25,368 INFO  [Logs] TestCase Passed in try block 
+2014-12-09 14:37:25,419 INFO  [Logs] results updated in catch block 
+2014-12-09 14:37:25,419 INFO  [Logs] notes updated in catch block 
+2014-12-09 14:37:25,419 ERROR [Logs] TestCase Failed in catch block 
+2014-12-09 14:37:25,737 INFO  [Logs] browser closed 
+2014-12-09 14:37:25,737 INFO  [Logs] ***************************************** 
+2014-12-09 14:37:25,738 INFO  [Logs] ***************************************** 
+2014-12-09 14:37:25,738 INFO  [Logs] *************-E-N-D-********************* 
+2014-12-09 14:37:25,738 INFO  [Logs] ***************************************** 
+2014-12-09 14:37:25,738 INFO  [Logs] ***************************************** 

@@ -1,0 +1,27 @@
+2014-12-09 11:49:47,915 INFO  [Logs] **************************************** 
+2014-12-09 11:49:47,915 INFO  [Logs] **************************************** 
+2014-12-09 11:49:47,915 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-09 11:49:47,915 INFO  [Logs] **************************************** 
+2014-12-09 11:49:47,915 INFO  [Logs] **************************************** 
+2014-12-09 11:50:02,932 INFO  [Logs] driver initialized 
+2014-12-09 11:50:03,047 INFO  [Logs] window maximized 
+2014-12-09 11:50:07,577 INFO  [Logs] browser launched 
+2014-12-09 11:50:08,260 INFO  [Logs] username entered 
+2014-12-09 11:50:08,342 INFO  [Logs] password entered 
+2014-12-09 11:50:08,343 INFO  [Logs] Screenshotdate with modified date=09-12-2014 11_50_08 
+2014-12-09 11:50:08,343 INFO  [Logs] //src//test//resources//Screenshots//login09-12-2014 11_50_08.png 
+2014-12-09 11:50:11,702 INFO  [Logs] SignIn button clicked 
+2014-12-09 11:50:11,702 INFO  [Logs] Screenshotdate with modified date=09-12-2014 11_50_11 
+2014-12-09 11:50:11,703 INFO  [Logs] //src//test//resources//Screenshots//login09-12-2014 11_50_11.png 
+2014-12-09 11:50:22,787 INFO  [Logs] Logged in successfully 
+2014-12-09 11:50:22,787 INFO  [Logs] Screenshotdate with modified date=09-12-2014 11_50_22 
+2014-12-09 11:50:22,787 INFO  [Logs] //src//test//resources//Screenshots//login09-12-2014 11_50_22.png 
+2014-12-09 11:50:23,716 INFO  [Logs] results updated in try block 
+2014-12-09 11:50:23,716 INFO  [Logs] notes updated in try block 
+2014-12-09 11:50:23,716 INFO  [Logs] TestCase Passed in try block 
+2014-12-09 11:50:23,980 INFO  [Logs] browser closed 
+2014-12-09 11:50:23,980 INFO  [Logs] ***************************************** 
+2014-12-09 11:50:23,980 INFO  [Logs] ***************************************** 
+2014-12-09 11:50:23,980 INFO  [Logs] *************-E-N-D-********************* 
+2014-12-09 11:50:23,980 INFO  [Logs] ***************************************** 
+2014-12-09 11:50:23,980 INFO  [Logs] ***************************************** 
