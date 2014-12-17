@@ -1,0 +1,21 @@
+2014-12-12 15:10:44,394 INFO  [Logs] **************************************** 
+2014-12-12 15:10:44,394 INFO  [Logs] **************************************** 
+2014-12-12 15:10:44,394 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-12 15:10:44,394 INFO  [Logs] **************************************** 
+2014-12-12 15:10:44,394 INFO  [Logs] **************************************** 
+2014-12-12 15:10:44,394 INFO  [Logs] window maximized 
+2014-12-12 15:10:52,092 INFO  [Logs] browser launched 
+2014-12-12 15:10:52,102 INFO  [Logs] STEP 1:- Login to GMAIL Applciation 
+2014-12-12 15:10:52,349 INFO  [Logs] SUCCESSFULLY Entered user name 
+2014-12-12 15:10:52,505 INFO  [Logs] SUCCESSFULLY Entered PWD  
+2014-12-12 15:10:52,506 INFO  [Logs] Screenshotdate with modified date=12-12-2014 15_10_52 
+2014-12-12 15:10:52,506 INFO  [Logs] //src//test//resources//Screenshots//login12-12-2014 15_10_52.png 
+2014-12-12 15:10:52,604 INFO  [Logs] results updated in catch block 
+2014-12-12 15:10:52,653 INFO  [Logs] notes updated in catch block 
+2014-12-12 15:10:52,653 ERROR [Logs] TestCase Failed in catch block 
+2014-12-12 15:10:55,688 INFO  [Logs] browser closed 
+2014-12-12 15:10:55,689 INFO  [Logs] ***************************************** 
+2014-12-12 15:10:55,689 INFO  [Logs] ***************************************** 
+2014-12-12 15:10:55,689 INFO  [Logs] *************-E-N-D-********************* 
+2014-12-12 15:10:55,690 INFO  [Logs] ***************************************** 
+2014-12-12 15:10:55,690 INFO  [Logs] ***************************************** 

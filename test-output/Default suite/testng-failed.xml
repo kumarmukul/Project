@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.gmail.project.classes.TestLogin">
+      <class name="com.project.classes.TestLogin">
         <methods>
+          <include name="destroy"/>
           <include name="login"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- com.gmail.project.classes.TestLogin -->
+      </class> <!-- com.project.classes.TestLogin -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,28 @@
+2014-12-11 17:13:35,012 INFO  [Logs] **************************************** 
+2014-12-11 17:13:35,012 INFO  [Logs] **************************************** 
+2014-12-11 17:13:35,013 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-11 17:13:35,013 INFO  [Logs] **************************************** 
+2014-12-11 17:13:35,013 INFO  [Logs] **************************************** 
+2014-12-11 17:13:35,013 INFO  [Logs] window maximized 
+2014-12-11 17:13:42,656 INFO  [Logs] browser launched 
+2014-12-11 17:13:42,664 INFO  [Logs] STEP 1:- Login to GMAIL Applciation 
+2014-12-11 17:13:42,970 INFO  [Logs] SUCCESSFULLY Entered user name 
+2014-12-11 17:13:43,165 INFO  [Logs] SUCCESSFULLY Entered PWD  
+2014-12-11 17:13:43,166 INFO  [Logs] Screenshotdate with modified date=11-12-2014 17_13_43 
+2014-12-11 17:13:43,166 INFO  [Logs] //src//test//resources//Screenshots//login11-12-2014 17_13_43.png 
+2014-12-11 17:13:44,383 INFO  [Logs] SUCCESSFULLY clicked SignIn button 
+2014-12-11 17:13:44,384 INFO  [Logs] SignIn button clicked 
+2014-12-11 17:13:44,384 INFO  [Logs] Screenshotdate with modified date=11-12-2014 17_13_44 
+2014-12-11 17:13:44,384 INFO  [Logs] //src//test//resources//Screenshots//login11-12-2014 17_13_44.png 
+2014-12-11 17:13:49,623 INFO  [Logs] Logged in successfully 
+2014-12-11 17:13:49,623 INFO  [Logs] Screenshotdate with modified date=11-12-2014 17_13_49 
+2014-12-11 17:13:49,623 INFO  [Logs] //src//test//resources//Screenshots//login11-12-2014 17_13_49.png 
+2014-12-11 17:13:49,820 INFO  [Logs] results updated in try block 
+2014-12-11 17:13:49,821 INFO  [Logs] notes updated in try block 
+2014-12-11 17:13:49,821 INFO  [Logs] TestCase Passed in try block 
+2014-12-11 17:13:53,433 INFO  [Logs] browser closed 
+2014-12-11 17:13:53,433 INFO  [Logs] ***************************************** 
+2014-12-11 17:13:53,433 INFO  [Logs] ***************************************** 
+2014-12-11 17:13:53,434 INFO  [Logs] *************-E-N-D-********************* 
+2014-12-11 17:13:53,434 INFO  [Logs] ***************************************** 
+2014-12-11 17:13:53,434 INFO  [Logs] ***************************************** 

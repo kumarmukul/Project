@@ -1,0 +1,27 @@
+2014-12-10 16:17:48,252 INFO  [Logs] **************************************** 
+2014-12-10 16:17:48,253 INFO  [Logs] **************************************** 
+2014-12-10 16:17:48,253 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-10 16:17:48,253 INFO  [Logs] **************************************** 
+2014-12-10 16:17:48,253 INFO  [Logs] **************************************** 
+2014-12-10 16:17:48,253 INFO  [Logs] window maximized 
+2014-12-10 16:17:55,127 INFO  [Logs] browser launched 
+2014-12-10 16:17:55,136 INFO  [Logs] STEP 1:- Login to GMAIL Applciation 
+2014-12-10 16:18:25,075 INFO  [Logs] SUCCESSFULLY Entered user name 
+2014-12-10 16:18:25,235 INFO  [Logs] SUCCESSFULLY Entered PWD  
+2014-12-10 16:18:25,236 INFO  [Logs] Screenshotdate with modified date=10-12-2014 16_18_25 
+2014-12-10 16:18:25,236 INFO  [Logs] //src//test//resources//Screenshots//login10-12-2014 16_18_25.png 
+2014-12-10 16:18:26,407 INFO  [Logs] SignIn button clicked 
+2014-12-10 16:18:26,407 INFO  [Logs] Screenshotdate with modified date=10-12-2014 16_18_26 
+2014-12-10 16:18:26,407 INFO  [Logs] //src//test//resources//Screenshots//login10-12-2014 16_18_26.png 
+2014-12-10 16:18:31,471 INFO  [Logs] Logged in successfully 
+2014-12-10 16:18:31,471 INFO  [Logs] Screenshotdate with modified date=10-12-2014 16_18_31 
+2014-12-10 16:18:31,471 INFO  [Logs] //src//test//resources//Screenshots//login10-12-2014 16_18_31.png 
+2014-12-10 16:18:31,637 INFO  [Logs] results updated in try block 
+2014-12-10 16:18:31,637 INFO  [Logs] notes updated in try block 
+2014-12-10 16:18:31,637 INFO  [Logs] TestCase Passed in try block 
+2014-12-10 16:18:32,875 INFO  [Logs] browser closed 
+2014-12-10 16:18:32,875 INFO  [Logs] ***************************************** 
+2014-12-10 16:18:32,876 INFO  [Logs] ***************************************** 
+2014-12-10 16:18:32,876 INFO  [Logs] *************-E-N-D-********************* 
+2014-12-10 16:18:32,876 INFO  [Logs] ***************************************** 
+2014-12-10 16:18:32,876 INFO  [Logs] ***************************************** 

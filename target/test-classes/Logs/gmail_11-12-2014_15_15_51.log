@@ -1,0 +1,11 @@
+2014-12-11 15:15:51,414 INFO  [Logs] **************************************** 
+2014-12-11 15:15:51,414 INFO  [Logs] **************************************** 
+2014-12-11 15:15:51,415 INFO  [Logs] ************GMAIL LOGIN************ 
+2014-12-11 15:15:51,415 INFO  [Logs] **************************************** 
+2014-12-11 15:15:51,415 INFO  [Logs] **************************************** 
+2014-12-11 15:15:51,415 INFO  [Logs] window maximized 
+2014-12-11 15:15:59,152 INFO  [Logs] browser launched 
+2014-12-11 15:15:59,163 INFO  [Logs] STEP 1:- Login to GMAIL Applciation 
+2014-12-11 15:16:34,676 INFO  [Logs] results updated in catch block 
+2014-12-11 15:16:34,677 INFO  [Logs] notes updated in catch block 
+2014-12-11 15:16:34,677 ERROR [Logs] TestCase Failed in catch block 
